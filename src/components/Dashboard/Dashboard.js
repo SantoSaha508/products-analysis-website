@@ -44,6 +44,7 @@ const Dashboard = () => {
     return (
         <div className='chart-container'>
             <div className='line-container'>
+                
                 <LineChart width={600} height={500} data={data}>
                     <Line dataKey={'investment'}></Line>
                     <Line dataKey={'sell'}></Line>
@@ -52,10 +53,12 @@ const Dashboard = () => {
                     <YAxis></YAxis>
                     <Tooltip></Tooltip>
                 </LineChart>
+                <h3>Line chart</h3>
             </div>
 
             <div>
                 <BarChart width={700} height={500} data={data}>
+                    
                     <Bar dataKey={'investment'} fill="#884d8"></Bar>
                     <Bar dataKey={'sell'} fill="#8884d8"></Bar>
                     <Bar dataKey={'revenue'} fill="#3334d3"></Bar>
@@ -63,6 +66,7 @@ const Dashboard = () => {
                     <YAxis></YAxis>
                     <Tooltip></Tooltip>
                 </BarChart>
+                <h3>Bar chart</h3>
             </div>
 
             <div>
@@ -71,6 +75,7 @@ const Dashboard = () => {
                 <Pie data={data} dataKey={'revenue'} cx="50%" cy="50%" innerRadius={110} outerRadius={140} fill="#82ca9d" label></Pie>
                 <Tooltip></Tooltip>
             </PieChart>
+            <h3>Pie chart</h3>
             </div>
 
         </div>
