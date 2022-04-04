@@ -27,7 +27,7 @@ const Home = () => {
                     sharees.map(sharee => <Sharee
                     key={sharee.id}
                     sharee={sharee}
-                    ></Sharee>)
+                    ></Sharee>).slice(0, 3)
                 }
                 </div>
                 <Link to="/review" elment={<Review></Review>}><button className='seeAll-btn'>See All---</button></Link>

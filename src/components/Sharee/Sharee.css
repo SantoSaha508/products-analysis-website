@@ -1,5 +1,11 @@
 .sharee-container{
     border: 1px solid black;
     border-radius: 15px;
-    background-color: rgb(247, 192, 182);
+    background-color: rgb(246, 243, 243);
+}
+.sharee-container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 5px;
 }
