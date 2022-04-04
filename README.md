@@ -2,6 +2,12 @@
 
 This is live site link: [Annapurna Bastralaya](https://astonishing-smakager-24dc50.netlify.app/review).
 
+## Project details
+## `1- One home page with product review`
+## `2- Crated a Dasboard where line char, bar chart & pi chart are included.`
+## `3. Created a 404 not found components.`
+## `4. Answer 3 questions in blogs page.`
+
 ## Available Scripts
 
 In the project directory, you can run:
