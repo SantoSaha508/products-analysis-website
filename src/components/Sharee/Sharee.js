@@ -10,7 +10,7 @@ const Sharee = (props) => {
             <div>
             <h2>Name: {name}</h2>
             <p>Comment: {comment}</p>
-            <p>Rating: {rating}</p>
+            <h4>Rating: {rating}</h4>
             </div>
         </div>
     );

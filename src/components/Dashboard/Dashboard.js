@@ -45,7 +45,7 @@ const Dashboard = () => {
         <div className='chart-container'>
             <div className='line-container'>
 
-                <LineChart width={500} height={500} data={data}>
+                <LineChart width={400} height={500} data={data}>
                     <Line dataKey={'investment'}></Line>
                     <Line dataKey={'sell'}></Line>
                     <Line dataKey={'revenue'}></Line>
@@ -57,7 +57,7 @@ const Dashboard = () => {
             </div>
 
             <div>
-                <BarChart width={500} height={500} data={data}>
+                <BarChart width={400} height={500} data={data}>
                     
                     <Bar dataKey={'investment'} fill="#884d8"></Bar>
                     <Bar dataKey={'sell'} fill="#8884d8"></Bar>
@@ -70,9 +70,9 @@ const Dashboard = () => {
             </div>
 
             <div>
-            <PieChart width={400} height={400}>
-                <Pie data={data} dataKey={'sell'} cx="50%" cy="50%" outerRadius={60} fill="#8884d8"></Pie>
-                <Pie data={data} dataKey={'revenue'} cx="50%" cy="50%" innerRadius={110} outerRadius={140} fill="#82ca9d" label></Pie>
+            <PieChart width={500} height={500}>
+                <Pie data={data} dataKey={'sell'} cx="50%" cy="50%" outerRadius={90} fill="#8884d8"></Pie>
+                <Pie data={data} dataKey={'revenue'} cx="50%" cy="50%" innerRadius={100} outerRadius={160} fill="#82ca9d" label></Pie>
                 <Tooltip></Tooltip>
             </PieChart>
             <h3>Pie chart</h3>

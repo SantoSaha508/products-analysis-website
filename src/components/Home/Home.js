@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
                 <div className='text-container'>
                     <h1>Choose <span className='shope-info'>Your Sharee From a Sharee</span> Hub</h1>
-                    <p>We are exparte in exclusive sharee collection. All kinds of sharee you can find our hub. In this Eid, we are ready to welcome you. Please give your comments / reviews and saty with us.</p>
+                    <p>We are exparte in exclusive sharee collection. All kinds of sharee you can find our hub. In this Eid, we are ready to welcome you. Please feel free to comments / reviews and saty with us.</p>
                 </div>
             </div>
             {/* review part */}

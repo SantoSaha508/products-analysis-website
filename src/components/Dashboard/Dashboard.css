@@ -1,6 +1,8 @@
 .chart-container{
-    display: flex;
-    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-top: 50px;
 }
 .line-container{
     margin: 50px;

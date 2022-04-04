@@ -2,9 +2,9 @@
     background-color: black;
     color: rgb(245, 129, 34);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 0px 30px;
     font-size: 25px;
 }
 .header-container a {
