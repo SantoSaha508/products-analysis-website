@@ -1,6 +1,6 @@
 # Annapurna Bastralaya
 
-This is live site link: [Annapurna Bastralaya](https://github.com/facebook/create-react-app).
+This is live site link: [Annapurna Bastralaya](https://astonishing-smakager-24dc50.netlify.app/review).
 
 ## Available Scripts
 
