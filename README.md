@@ -1,6 +1,6 @@
 # Annapurna Bastralaya
 
-This is live site link: [Annapurna Bastralaya](https://astonishing-smakager-24dc50.netlify.app/review).
+This is live site link: [Annapurna Bastralaya](https://assignment9-product-review.netlify.app/).
 
 ## Project details
 ## `1- One home page with product review`

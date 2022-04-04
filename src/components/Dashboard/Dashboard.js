@@ -44,8 +44,8 @@ const Dashboard = () => {
     return (
         <div className='chart-container'>
             <div className='line-container'>
-                
-                <LineChart width={600} height={500} data={data}>
+
+                <LineChart width={500} height={500} data={data}>
                     <Line dataKey={'investment'}></Line>
                     <Line dataKey={'sell'}></Line>
                     <Line dataKey={'revenue'}></Line>
@@ -57,7 +57,7 @@ const Dashboard = () => {
             </div>
 
             <div>
-                <BarChart width={700} height={500} data={data}>
+                <BarChart width={500} height={500} data={data}>
                     
                     <Bar dataKey={'investment'} fill="#884d8"></Bar>
                     <Bar dataKey={'sell'} fill="#8884d8"></Bar>

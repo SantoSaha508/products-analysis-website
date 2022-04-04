@@ -1,0 +1,48 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+}
+.shope-info{
+    color: rgb(158, 35, 139);
+}
+.text-container h1{
+    font-size: 60px;
+    color: darkgray;
+}
+.text-container p{
+    font-size: large;
+    font-weight: 600;
+}
+
+.home-image img {
+    width: 400px;
+    height: 600px;
+    margin: 20px;
+}
+
+.customerReview{
+    background-color: gray;
+    color: rgb(12, 8, 23);
+    padding: 20px;
+}
+.cart-Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    margin: 20px;
+}
+.seeAll-btn{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 200px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: rgb(158, 35, 139);
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+}

@@ -1,38 +1,50 @@
 [
     {
-        "month": "Mar",
-        "investment": 100000,
-        "sell": 241,
-        "revenue": 10401
+        "postId": 1,
+        "id": 1,
+        "name": "Mr. Jhon",
+        "comment": "all products are good",
+        "rating": 3,
+        "email": "Eliseo@gardner.biz"
     },
     {
-        "month": "Apr",
-        "investment": 200000,
-        "sell": 423,
-        "revenue": 24500
+        "postId": 2,
+        "id": 2,
+        "name": "Mr. milton",
+        "comment": "Good collenction",
+        "rating": 1,
+        "email": "Eliseo@gardner.biz"
     },
     {
-        "month": "May",
-        "investment": 500000,
-        "sell": 726,
-        "revenue": 67010
+        "postId": 3,
+        "id": 3,
+        "name": "Mary",
+        "comment": "Nice decoration",
+        "rating": 2,
+        "email": "Eliseo@gardner.biz"
     },
     {
-        "month": "Jun",
-        "investment": 500000,
-        "sell": 529,
-        "revenue": 40405
+        "postId": 4,
+        "id": 4,
+        "name": "Abrar",
+        "comment": "Not good",
+        "rating": 3,
+        "email": "Eliseo@gardner.biz"
     },
     {
-        "month": "Jul",
-        "investment": 600000,
-        "sell": 601,
-        "revenue": 50900
+        "postId": 5,
+        "id": 5,
+        "name": "Sohag hossain",
+        "comment": "Sharee are good",
+        "rating": 4,
+        "email": "Eliseo@gardner.biz"
     },
     {
-        "month": "Aug",
-        "investment": 700000,
-        "sell": 670,
-        "revenue": 61000
+        "postId": 6,
+        "id": 6,
+        "name": "Shanto saha",
+        "comment": "Exclusive collestion",
+        "rating": 2.5,
+        "email": "Eliseo@gardner.biz"
     }
 ]
