@@ -17,3 +17,6 @@
 .header-container a:hover{
     color: orange;
 }
+.header-container a:focus{
+    color: orange;
+}

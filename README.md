@@ -4,7 +4,7 @@ This is live site link: [Annapurna Bastralaya](https://assignment9-product-revie
 
 ## Project details
 ## `1- One home page with product review`
-## `2- Crated a Dasboard where line char, bar chart & pi chart are included.`
+## `2- Crated a Dasboard where line chart, bar   chart & pie chart are included.`
 ## `3. Created a 404 not found components.`
 ## `4. Answer 3 questions in blogs page.`
 
